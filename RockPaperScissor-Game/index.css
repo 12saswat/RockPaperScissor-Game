@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body{
+   background-image: url(Images/background\ image2.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: black;
+}
+
+h1{
+ background-color: navy; 
+color: aqua;
+ height: 5rem;
+ line-height: 5rem; 
+ font-size: 3rem;
+ border-radius: 20px 20px 0px 0px;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 5rem;
+  border-radius: 50%;
+}
+.choice{
+  height: 150px;
+  width: 150px;
+}
+.choice:hover{
+  background: #03e9f4;
+  color:#050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 5px #03e9f4,
+              0 0 5px #03e9f4,
+              0 0 5px #03e9f4 ;
+              -webkit-box-reflect: below 0.5px
+              linear-gradient(transparent, #0005);
+  border-radius: 50% ;
+  padding: 4px;
+}
+
+/* .choice:hover{ 
+ cursor: pointer;
+ border-radius: 50%;
+  background: transparent;
+  box-shadow:  0px 0px 40px #3b4303,
+               0px 0px 40px #3b4303,
+               0px 0px 40px #3b4303;
+}  */
+img{
+  height: 150px;
+  width: 150px;
+  object-fit: fit;
+  border-radius: 50%;
+}
+
+/*  Score Board */
+.scoreBrd{
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  margin: 80px;
+  font-size: 25px;
+  color: beige;
+}
+#yourScr,#autoScr{
+  font-size: 4rem;
+  color: aqua;
+}
+.msgCont{
+  margin-top:5rem;
+  color: aqua;
+}
+#msg{
+  font-size: 2rem; 
+  background-color:black;
+  color: antiquewhite;
+  display: inline-block;
+  padding: 0.7rem;
+  border-radius:10px;
+  -webkit-box-Reflect : below
+    1px linear-CanvasGradient(transparent, #0005);
+    box-Shadow : 0 0 5px #8503e9, 0 0 15px #8503e9,
+    0 0 25px #8503e9, 0 0 100px #8503e9
+}
